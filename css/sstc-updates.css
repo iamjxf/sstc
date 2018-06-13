@@ -1,0 +1,70 @@
+/*** SSTC Updates & Changes 2018 ***/
+
+
+/* logo branding area */
+.navbar-inner .brand {
+	padding: 10px 20px 0 0;
+    width: 240px;
+}
+
+/* main navigation */
+.nav {
+	padding-left: 15%;
+}
+
+.navbar .nav > li > a {
+	font-size: 18px;
+}
+
+/* solution cards */
+.card .cardmain .info .title{
+	text-transform: capitalize;
+}
+
+.card .cardmain .info p {
+	font-size:16px !important;
+	text-align: justify;
+	max-height: 4.3em; 
+    overflow: hidden;
+    position: relative; 
+  	padding-right: 1em;
+}
+
+.card .cardmain .info p:before {
+ 	content: '...';
+ 	position: absolute;
+ 	right: 0;
+  	bottom: 0;
+}
+
+.card .cardmain .info p:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 2em;
+  margin-top: 0.2em;
+  background: #fff;
+}
+
+@media (max-width: 1024px) {
+.card .cardmain .info p {
+  max-height: 3.9em;
+  white-space: pre-wrap;
+  width: 15em; } }
+
+@media (max-width: 979px) {
+.card .cardmain .info p {
+  max-height: 3.6em;
+  width: 12em; } }
+
+@media (max-width: 479px) {
+.card .cardmain .info p {
+  width: 14em; }
+}
+
+@media (max-width: 320px) {
+.card .cardmain .info p {
+  width: 12em; } }
+
+
