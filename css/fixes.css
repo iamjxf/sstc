@@ -1,1 +1,52 @@
-** test file **
+** sstc mobile fixes - 6/27/18 **
+
+@media (max-width: 979px) {
+  .aui .navbar-fixed-top {
+  margin-bottom: 20px;
+  position: fixed !important;
+  min-height: 60px !important;
+  }
+}
+
+@media (max-width: 979px) {
+  .aui .navbar .brand {
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  margin: 0 0 0 -5px;
+  padding: 0 10px 0 10px;
+  }
+}
+/* in addition to the above, also please change in html to the following: 
+<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
+*/
+
+@media (max-width: 979px) {
+  .aui .navbar .btn-navbar {
+  display: block !important;
+  float: right;
+  padding: 7px 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: #333 !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #003870 !important;
+  background-image: none;
+  border: 0 none;
+  box-shadow: none;
+  }
+}
+
+@media(max-width:767px) {
+  #wrapper {
+	padding: 0 !important;
+  margin: 120px 0 0 0 !important;
+  }
+}
+
+@media(max-width:767px) {
+   #wrapper .container-yoyo {
+   margin-right: -20px;
+   margin-left: -20px;
+   z-index: 0
+   }
+}
