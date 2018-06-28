@@ -5,8 +5,7 @@
 .aui .navbar-fixed-top {
  	margin-bottom: 20px;
  	position: fixed !important;
- 	min-height: 60px !important;
-}
+ 	min-height: 60px !important; }
 
 .aui .navbar .btn-navbar {
  	display: block !important;
@@ -19,21 +18,18 @@
  	background-color: #003870 !important;
  	background-image: none;
  	border: 0 none;
- 	box-shadow: none;
- }
+ 	box-shadow: none; }
 
 .aui .navbar .brand {
  	/* padding-left: 10px; */
  	/* padding-right: 10px; */
  	margin: 0 0 0 -5px;
- 	padding: 0 10px 0 10px;
- }
+ 	padding: 0 10px 0 10px; }
   
 #wrapper .container-yoyo .solution-btns .btn {
 	width: 200px;
 	height: 35px;
-	display: inline-block;
- }	
+	display: inline-block; }	
 
 }
 
@@ -41,14 +37,12 @@
 @media(max-width:767px) {
   #wrapper {
    	padding: 0 !important;
-   	margin: 120px 0 0 0 !important;
-  }
+   	margin: 120px 0 0 0 !important; }
 	
   #wrapper .container-yoyo {
    	margin-right: -20px;
    	margin-left: -20px;
-   	z-index: 0
-  }
+   	z-index: 0 }
 	
   #wrapper .container-yoyo .title {
   	padding-left: 10%;
@@ -60,8 +54,7 @@
    	font-weight: bold;
    	width: 160px;
    	height: 40px;
-   	padding: 6px 10px;
-  }
+   	padding: 6px 10px; }
 	
 }
 
