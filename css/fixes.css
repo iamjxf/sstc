@@ -1,4 +1,4 @@
-** sstc mobile fixes - 6/27/18 **
+** sstc mobile fixes - 6/28/18 **
 
 
 @media (max-width: 979px) {
@@ -40,44 +40,29 @@
 
 @media(max-width:767px) {
   #wrapper {
-   padding: 0 !important;
-   margin: 120px 0 0 0 !important;
+   	padding: 0 !important;
+   	margin: 120px 0 0 0 !important;
   }
 	
   #wrapper .container-yoyo {
-   margin-right: -20px;
-   margin-left: -20px;
-   z-index: 0
-  }
-
-  #wrapper .container-yoyo .solution-btns .btn {
-   font-size: 10px;
-   font-weight: bold;
-   width: 160px;
-   height: 40px;
-   padding: 6px 10px;
+   	margin-right: -20px;
+   	margin-left: -20px;
+   	z-index: 0
   }
 	
-}
-
-
-/* in addition to the above, also please change the following HTML: 
-
-/* inside class="brand hidden-tablet hidden-desktop"
-<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
-
-/*  first parallax slide, inside class="layer solution-btns" 
-<div class="layer solution-btns" data-depth=".01" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"> <a class="btn btn-primary" href="/-/reaf-policy-dialogue-platform-for-family-farming-in-south-america">Explore This Solution</a> <a class="btn btn-default" href="/solutions" ="button"="">Explore All Solutions</a> </div>
-*/
-
-** sstc mobile fixes - 6/28/18  [these are in addition to the above] **
-
-
-@media(max-width:767px) {
   #wrapper .container-yoyo .title {
   	padding-left: 10%;
       	padding-right: 10%;
       	padding-top: 1%; }
+
+  #wrapper .container-yoyo .solution-btns .btn {
+   	font-size: 10px;
+   	font-weight: bold;
+   	width: 160px;
+   	height: 40px;
+   	padding: 6px 10px;
+  }
+	
 }
 
  @media (max-width: 599px) {
@@ -111,3 +96,13 @@
      	width: 60%;
 	padding: 15px 60px 15px 15px; }
 }
+
+
+/* in addition to the above, also please change the following HTML: 
+
+/* inside class="brand hidden-tablet hidden-desktop"
+<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
+
+/*  first parallax slide, inside class="layer solution-btns" 
+<div class="layer solution-btns" data-depth=".01" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"> <a class="btn btn-primary" href="/-/reaf-policy-dialogue-platform-for-family-farming-in-south-america">Explore This Solution</a> <a class="btn btn-default" href="/solutions" ="button"="">Explore All Solutions</a> </div>
+*/
