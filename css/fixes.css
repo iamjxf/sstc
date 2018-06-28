@@ -3,36 +3,36 @@
 
 @media (max-width: 979px) {
 .aui .navbar-fixed-top {
-  margin-bottom: 20px;
-  position: fixed !important;
-  min-height: 60px !important;
+ 	margin-bottom: 20px;
+ 	position: fixed !important;
+ 	min-height: 60px !important;
 }
 
 .aui .navbar .btn-navbar {
-  display: block !important;
-  float: right;
-  padding: 7px 10px;
-  margin-right: 5px;
-  margin-left: 5px;
-  color: #333 !important;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #003870 !important;
-  background-image: none;
-  border: 0 none;
-  box-shadow: none;
+ 	display: block !important;
+ 	float: right;
+ 	padding: 7px 10px;
+ 	margin-right: 5px;
+ 	margin-left: 5px;
+ 	color: #333 !important;
+ 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+ 	background-color: #003870 !important;
+ 	background-image: none;
+ 	border: 0 none;
+ 	box-shadow: none;
  }
 
 .aui .navbar .brand {
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
-  margin: 0 0 0 -5px;
-  padding: 0 10px 0 10px;
+ 	/* padding-left: 10px; */
+ 	/* padding-right: 10px; */
+ 	margin: 0 0 0 -5px;
+ 	padding: 0 10px 0 10px;
  }
   
 #wrapper .container-yoyo .solution-btns .btn {
-  width: 200px;
-  height: 35px;
-  display: inline-block;
+	width: 200px;
+	height: 35px;
+	display: inline-block;
  }	
 
 }
