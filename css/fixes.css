@@ -70,144 +70,44 @@
 <div class="layer solution-btns" data-depth=".01" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"> <a class="btn btn-primary" href="/-/reaf-policy-dialogue-platform-for-family-farming-in-south-america">Explore This Solution</a> <a class="btn btn-default" href="/solutions" ="button"="">Explore All Solutions</a> </div>
 */
 
-	** sstc mobile fixes - 6/28/18 **
+** sstc mobile fixes - 6/28/18  [these are in addition to the above] **
 
 
-	@media (max-width: 979px) {
+@media(max-width:767px) {
+  #wrapper .container-yoyo .title {
+  	padding-left: 10%;
+      	padding-right: 10%;
+      	padding-top: 1%; }
+}
 
-	body {
-	padding: 0;
-		padding-top: 95px;
-		}
-		.navbar-fixed-top {
-	    position: fixed;
-	    right: 0;
-	    left: 0;
-	    z-index: 1030;
-	    margin-bottom: 0
-		}
-		.navbar .btn-navbar {
-		margin-top: 25px;
-		}
-		.nav {
-		border-left: none;
-		}
-		.navbar .nav > li > a {
-		font-weight: normal;
-		font-size: 18px;
-		line-height: 22px;
-		}
-		#mobile-userlinks li a {
-		color: #888;
-		font-size: 14px;
-		line-height: 18px;
-		clear: left;
-		padding: 0 0 0 15px;
-		margin: 0;
-		}
-		#mobile-userlinks li a:hover {
-		color: #003870;
-		text-decoration: none
-		}
-		.footer-menu{
-		width:100% !important;
-		display: block !important;
-		float: none !important;
-		margin: 0 !important;
-		}
-		.ifad-links{
-		width:auto !important;
-		display:block;
-		float:none;
-		}
-		.rsp-social{
-		width:auto !important;
-		float:none;
-		display:block;
-		}
-		.main_section_cnt{
-		padding:0 0 35px 0;
-		}
-		.navbar-inner .brand{
-		padding:0 10px 0 10px;
-		}
-	}
+ @media (max-width: 599px) {
+    #wrapper .container-yoyo .solution-btns {
+    	margin-top: 36%;
+      	right: -20px; }
+	
+    #wrapper .carousel.carousel-fade .carousel-control {
+      	left: 20px;
+      	width: 30px;
+      	height: 30px;
+      	margin-top: -20px;
+      	font-size: 25px;
+      	line-height: 0; }
+	 
+    .solution-slider-container .rsp_solution_slider button {
+	display: none !important; }
+	 
+    .solution-slider-container .rsp_solution_slider {
+    	padding: 56px 15px 51px 15px;
+    	display: block;
+	margin-left: 32px; }
+ }
 
-	@media (max-width: 767px) {
-
-	body {
-	padding: 0;
-	padding-top: 71px;
-	}
-	.container {
-	margin-left: auto;
-	margin-right: auto;
-	}
-	.navbar-fixed-top {
-	margin-right: 0;
-		margin-left: 0;
-		}
-		.navbar .btn-navbar {
-		margin-top: 10px;
-		}
-		.nav-collapse .nav {
-	float: none;
-	margin: 30px 0 10px;
-		}
-		.navbar-inner {
-		min-height: 60px;
-		}
-		.nav {
-		border-left: none;
-		padding-left: 0;
-		}
-		.navbar .nav > li {
-		text-align: left;
-		float: left;
-		clear: both;
-		}
-		.navbar .nav > li > a {
-		font-size: 18px;
-		line-height: 22px;
-		text-align: left;
-		float: left;
-		padding: 0 0 20px 15px;
-		}
-		#mobile-userlinks li a {
-		color: #888;
-		font-size: 14px;
-		line-height: 18px;
-		clear: left;
-		padding: 0 0 10px 15px;
-		margin: 0;
-		}
-	}
-
-	@media (max-width: 599px) {
-		.breadcrumbs ul li{
-		padding:0 20px 0 0;
-		}
-		.breadcrumbs ul li:after{
-		right:9px;
-		}
-		.rsp_1 {
-		width: 33% !important;
-		padding: 0 5px 10px 5px;
-		}
-		.footer-menu a{
-		font-size:14px;
-		line-height:16px;
-		}
-		footer hr{
-		margin:10px 0;	
-		}
-	}
-
-	@media (max-width: 479px) {
-		.breadcrumbs{
-		padding:15px 0;	
-		}
-	}
-
-	@media (max-width: 320px) {
-	}
+@media (max-width 479px) {
+    #wrapper h2 {
+    	font-size: 24px;
+    	line-height: 30px; }
+	
+     #wrapper .home_search_bkgr {
+     	width: 60%;
+	padding: 15px 60px 15px 15px; }
+}
