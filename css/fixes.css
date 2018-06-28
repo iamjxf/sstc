@@ -58,6 +58,7 @@
 	
 }
 
+
  @media (max-width: 599px) {
     #wrapper .container-yoyo .solution-btns {
     	margin-top: 36%;
@@ -71,6 +72,14 @@
       	font-size: 25px;
       	line-height: 0; }
 	 
+    #wrapper h2 {
+    	font-size: 24px;
+    	line-height: 30px; }
+
+    #wrapper .home_search_bkgr {
+    	width: 60%;
+    	padding: 15px 60px 15px 15px; }
+	 
     .solution-slider-container .rsp_solution_slider button {
 	display: none !important; }
 	 
@@ -78,24 +87,5 @@
     	padding: 56px 15px 51px 15px;
     	display: block;
 	margin-left: 32px; }
+	 
  }
-
-@media (max-width 479px) {
-    #wrapper h2 {
-    	font-size: 24px;
-    	line-height: 30px; }
-	
-     #wrapper .home_search_bkgr {
-     	width: 60%;
-	padding: 15px 60px 15px 15px; }
-}
-
-
-/* in addition to the above, also please change the following HTML: 
-
-/* inside class="brand hidden-tablet hidden-desktop"
-<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
-
-/*  first parallax slide, inside class="layer solution-btns" 
-<div class="layer solution-btns" data-depth=".01" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"> <a class="btn btn-primary" href="/-/reaf-policy-dialogue-platform-for-family-farming-in-south-america">Explore This Solution</a> <a class="btn btn-default" href="/solutions" ="button"="">Explore All Solutions</a> </div>
-*/
