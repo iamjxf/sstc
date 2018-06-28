@@ -1,27 +1,14 @@
 ** sstc mobile fixes - 6/27/18 **
 
+
 @media (max-width: 979px) {
-  .aui .navbar-fixed-top {
+.aui .navbar-fixed-top {
   margin-bottom: 20px;
   position: fixed !important;
   min-height: 60px !important;
-  }
 }
 
-@media (max-width: 979px) {
-  .aui .navbar .brand {
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
-  margin: 0 0 0 -5px;
-  padding: 0 10px 0 10px;
-  }
-}
-/* in addition to the above, also please change in html to the following: 
-<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
-*/
-
-@media (max-width: 979px) {
-  .aui .navbar .btn-navbar {
+.aui .navbar .btn-navbar {
   display: block !important;
   float: right;
   padding: 7px 10px;
@@ -33,20 +20,53 @@
   background-image: none;
   border: 0 none;
   box-shadow: none;
-  }
+ }
+
+.aui .navbar .brand {
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  margin: 0 0 0 -5px;
+  padding: 0 10px 0 10px;
+ }
+  
+#wrapper .container-yoyo .solution-btns .btn {
+  width: 200px;
+  height: 35px;
+  display: inline-block;
+ }	
+
 }
+
 
 @media(max-width:767px) {
   #wrapper {
-	padding: 0 !important;
-  margin: 120px 0 0 0 !important;
+   padding: 0 !important;
+   margin: 120px 0 0 0 !important;
   }
-}
-
-@media(max-width:767px) {
-   #wrapper .container-yoyo {
+	
+  #wrapper .container-yoyo {
    margin-right: -20px;
    margin-left: -20px;
    z-index: 0
-   }
+  }
+
+  #wrapper .container-yoyo .solution-btns .btn {
+   font-size: 10px;
+   font-weight: bold;
+   width: 160px;
+   height: 40px;
+   padding: 6px 10px;
+  }
+	
 }
+
+
+/* in addition to the above, also please change the following HTML: 
+
+/* inside class="brand hidden-tablet hidden-desktop"
+<img src="/image/company_logo?img_id=39585509&amp;t=1530110129507" width="240">
+
+/*  first parallax slide, inside class="layer solution-btns" 
+<div class="layer solution-btns" data-depth=".01" style="transform: translate3d(0px, 0px, 0px); transform-style: preserve-3d; -webkit-backface-visibility: hidden; position: absolute; display: block; left: 0px; top: 0px;"> <a class="btn btn-primary" href="/-/reaf-policy-dialogue-platform-for-family-farming-in-south-america">Explore This Solution</a> <a class="btn btn-default" href="/solutions" ="button"="">Explore All Solutions</a> </div>
+*/
+
