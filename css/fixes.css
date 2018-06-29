@@ -44,6 +44,35 @@
 
 
 @media(max-width:767px) {
+	
+  .aui .nav-collapse .nav {
+	float: none;
+	margin: 30px 0 0 10px;
+	padding-top: 30px; }
+	
+  .aui .nav-collapse .nav > li > a:hover,
+  .aui .nav-collapse .nav > li > a:focus,
+  .aui .nav-collapse .dropdown-menu a:hover,
+  .aui .nav-collapse .dropdown-menu a:focus {
+      	background-color: none; }
+	
+  #wrapper > .navbar-fixed-top > .navbar-inner .nav > li {
+    	float: left;
+	text-align: left;
+	clear: both; }
+	
+  #wrapper > .navbar-fixed-top > .navbar-inner .nav > li > a {
+    	font-family: HelveticaNeue-Medium;
+    	font-size: 16px;
+    	color: #003870;
+    	line-height: 22px;
+    	float: left;
+    	padding: 0 0 20px 15px;
+	text-align: left;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	text-shadow: none; }
+	
   #wrapper {
    	padding: 0 !important;
    	margin: 120px 0 0 0 !important; }
@@ -74,6 +103,11 @@
 
 
  @media (max-width: 599px) {
+	 
+   #wrapper p {
+    	font-size: 18px;
+    	line-height: 28px; }
+	 
     #wrapper .container-yoyo .solution-btns {
     	margin-top: 36%;
       	right: -20px; }
@@ -150,15 +184,19 @@
         line-height: 32px;
         padding: 0 0 0 52px }
 	 
-     #full_solution_toggler {
-    	padding: 5px 25px 20px 45px !important; }
-	 
-     #wrapper .solution-detail .toggler-content-wrapper {
+    #wrapper .solution-detail .toggler-content-wrapper {
     	width: 98%; }
 
-     #wrapper .solution-detail .toggler-content-wrapper p {
+    #wrapper .solution-detail .toggler-content-wrapper p {
     	font-size: 18px;
     	line-height: 28px }
+	 
+    #full_solution_toggler {
+    	padding: 5px 25px 20px 45px !important; }
+	 
+    .portlet-journal-content li {
+  	font-size: 18px;
+  	line-height: 28px; }
 	 
     .solution-slider-container .rsp_solution_slider button {
 	display: none !important; }
