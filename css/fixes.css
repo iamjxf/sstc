@@ -2,12 +2,12 @@
 
 
 @media (max-width: 979px) {
-.aui .navbar-fixed-top {
+  .aui .navbar-fixed-top {
  	margin-bottom: 20px;
  	position: fixed !important;
  	min-height: 60px !important; }
 
-.aui .navbar .btn-navbar {
+  .aui .navbar .btn-navbar {
  	display: block !important;
  	float: right;
  	padding: 7px 10px;
@@ -20,13 +20,23 @@
  	border: 0 none;
  	box-shadow: none; }
 
-.aui .navbar .brand {
+  .aui .navbar .brand {
  	/* padding-left: 10px; */
  	/* padding-right: 10px; */
  	margin: 0 0 0 -5px;
  	padding: 0 10px 0 10px; }
+	
+  #wrapper > .navbar-fixed-top > .navbar-inner {
+    	min-height: 90px;
+    	padding-right: 30px;
+    	padding-left: 30px;
+    	background-color: #fff;
+    	background-image: none;
+    	background-repeat: none;
+    	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4)
+}
   
-#wrapper .container-yoyo .solution-btns .btn {
+  #wrapper .container-yoyo .solution-btns .btn {
 	width: 200px;
 	height: 35px;
 	display: inline-block; }	
