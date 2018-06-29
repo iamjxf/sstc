@@ -87,5 +87,42 @@
     	padding: 56px 15px 51px 15px;
     	display: block;
 	margin-left: 32px; }
+ 
+    .page-main-header {
+  	border: none;
+  	position: relative;
+  	color: white;
+  	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+  	margin: -20px 0 0 0px;
+  	height: 300px; }
+	 
+    .sstc-search-navbar .nav > li {
+      	background-color: white;
+      	width: 200px;
+      	border: none;
+      	text-transform: uppercase;
+      	margin-right: 20px;
+      	text-align: left; }
+	 
+    .solution-explorer-container {
+	margin-top:40px }
+	 
+    .solution-explorer-container .row {
+  	padding-top: 0;
+	padding-bottom: 0; }
+	 
+    .card {
+  	min-height: 433px !important;
+  	max-height: 433px;
+  	margin: 0 0 30px 0 !important;
+  	background-color: #fff;
+  	border-radius: 6px;
+  	box-shadow: none;
+  	box-sizing: border-box;
+  	box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.2);
+     }
+	 
+     .columns-1-1-ii #column-3 {
+	float: none !important }
 	 
  }
