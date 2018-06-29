@@ -89,10 +89,14 @@
     #wrapper h2 {
     	font-size: 24px;
     	line-height: 30px; }
+	 
+    #wrapper .home_intro h3 {
+	font-size: 24px;
+	line-height: 28px;
 
     #wrapper .home_search_bkgr {
     	width: 60%;
-    	padding: 15px 60px 15px 15px; }
+    	padding: 15px 75px 15px 15px; }
 	 
     #wrapper .solution-detail .sltn_tags {
     	display: block;
@@ -161,8 +165,10 @@
 	 
     .solution-slider-container .rsp_solution_slider {
     	padding: 56px 15px 51px 15px;
-    	display: block;
-	margin-left: 32px; }
+    	display: block; }
+	 
+    .solution-slider-container .rsp_solution_slider .slick-track .card {
+    	margin: 0 15px 30px 15px !important; }
  
     .page-main-header {
   	border: none;
@@ -171,6 +177,9 @@
   	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
   	margin: -20px 0 0 0px;
   	height: 300px; }
+	 
+    .page-main-header div.titles {
+    	top: 35%; }
 	 
     .sstc-search-navbar .nav > li {
       	background-color: white;
