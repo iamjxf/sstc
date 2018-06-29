@@ -68,6 +68,12 @@
 	
 }
 
+   .container-survey {
+	position: fixed;
+	right: .7em;
+	bottom: .7em;
+}
+
 
  @media (max-width: 599px) {
     #wrapper .container-yoyo .solution-btns {
